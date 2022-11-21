@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Womazing</title>
+    <meta name="description" content="Womazing">
+	<meta name="keywords" content="магазин, одежда, свитеры, купальники, футболки,покупки онлайн, мода">
+	<!-- OG Tags -->
+	<meta property="og:title" content="Womazing / Главная">
+	<meta property="og:description" content="Womazing">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="WebCode">
+	<!-- Styling -->
+	<meta name="theme-color" content="#4985FF">
+	<link rel="icon" type="image/png" href="assests/img/favicon.png">
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="assests/css/bootstrap.css">
+    <!-- Main CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assests/css/main.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-transparent_content">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <div class="col-lg-3 col-sm-12 d-flex justify-content-center">
+                        <div class="header-logo">
+                            <a href="#">
+                                <img src="assests/img/Лого.svg" alt="Womazing" class="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <nav class="header-menu">
+                            <ul class="header-menu__list">
+                                <li class="header-menu__item">
+                                    <a href="../Диплом/index.html" class="header-menu__item_text">Главная</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="../Диплом/shop.html" class="header-menu__item_text">Магазин</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="../Диплом/about.html" class="header-menu__item_text">О бренде</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="../Диплом/contacts.html" class="header-menu__item_text">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 d-lg-none">
+                        <div class="mobile_menu d-flex d-lg-none">
+                            <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed ml-auto"><span class="slicknav_menutxt">MENU</span></a>
+                        </div>
+                        <div class="burger">
+                            <ul class="header-menu__list navigator">
+                                <li class="header-menu__item">
+                                    <a href="../Диплом/index.html" class="header-menu__item_text">Главная</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="../Диплом/shop.html" class="header-menu__item_text">Магазин</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="../Диплом/about.html" class="header-menu__item_text">О бренде</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="../Диплом/contacts.html" class="header-menu__item_text">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-sm-3 col-md-5 col-lg-3 d-flex justify-content-end">
+                        <div class="tel">
+                            <button type="button" class="btn-open"><div class="telHeader"></div></button>
+                            <a href="tel:+74958235412" class="number-tel">+7 (495) 823-54-12</a>
+                        </div>
+                        <a href="../Диплом/cart.html" class="bags">
+                            <img src="assests/img/shopping-bags 1.svg" alt="#" class="bags">
+                        </a>
+                        <div id="wrapper-modal">
+                            <div id="overlay"></div>
+                            <div id="modal-window">
+                                <button type="button" id="close-btn">
+                                    <img src="assests/img/Close.svg" alt="#" class="close">
+                                </button>
+                                <h3 class="modal__title">Заказать обратный звонок</h3>
+                                <form action="#" class="form-modal" id="form-modal">
+                                    <input type="text" name="name" class="form-book__input" placeholder="Имя" required>
+                                    <input type="email" name="email" class="form-book__input" placeholder="E-mail" required>
+                                    <input type="tel" name="phone"  class="form-book__input" placeholder="Телефон" required>
+                                    <button type="submit" class="btn select-btn" data-submit>Заказать звонок</button>
+                                </form>
+                            </div>
+                            <div id="modal-set">
+                                <h3 class="modal-set__title">
+                                    Отлично! Мы скоро вам перезвоним.
+                                </h3>
+                                <button class="modal-set__btn close">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 col-sm-12 d-flex flex-column justify-content-center">
+                    <div class="offer-header__slide_wrap justify-content-center">
+                        <div class="offer-header__wrapper">
+                            <div class="offerSlide">
+                                <h1 class="header__title">
+                                    Включай новый сезон с WOMAZING
+                                </h1> 
+                                <div class="offer__intro-wrap">
+                                    <p class="header__intro">
+                                        Мы обновили ассортимент - легендарные коллекции и новинки от отечественных дизайнеров
+                                    </p>
+                                </div>
+                                <div class="btns">
+                                    <a href="#newCollection" class="btn-arrow">
+                                        <img src="assests/img/Vector 1.svg" alt="" class="btn-arrow__loc">
+                                    </a>
+                                    <a href="../Диплом/shop.html" class="btn-shop btn">Открыть магазин</a>
+                                </div>
+                            </div>
+                            <div class="offerSlide active">
+                                <h1 class="header__title">
+                                    Новые поступления в этом сезоне
+                                </h1> 
+                                <div class="offer__intro-wrap">
+                                    <p class="header__intro">
+                                        Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать.
+                                    </p>
+                                </div>
+                                <div class="btns">
+                                    <a href="#newCollection" class="btn-arrow">
+                                        <img src="assests/img/Vector 1.svg" alt="" class="btn-arrow__loc">
+                                    </a>
+                                    <a href="../Диплом/shop.html" class="btn-shop btn">Открыть магазин</a>
+                                </div>
+                            </div>
+                            <div class="offerSlide">
+                                <h1 class="header__title">
+                                    Что-то новенькое. Мы заждались тебя.
+                                </h1> 
+                                <div class="offer__intro-wrap">
+                                    <p class="header__intro">
+                                        Надоело искать себя в сером городе? Настало время новых идей, свежих красок и вдохновения с Womazing!
+                                    </p>
+                                </div>
+                                <div class="btns">
+                                    <a href="#newCollection" class="btn-arrow">
+                                        <img src="assests/img/Vector 1.svg" alt="" class="btn-arrow__loc">
+                                    </a>
+                                    <a href="../Диплом/shop.html" class="btn-shop btn">Открыть магазин</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scrollbars">
+                        <span class="scrollbar"></span>
+                        <span class="scrollbar active"></span>
+                        <span class="scrollbar"></span>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="img-header">
+                        <div class="background"></div>
+                    </div>
+                    <div class="header__photo">
+                        <img src="assests/img/imgHeader1.jpg" alt="Фото" class="header__photo-one">
+                        <img src="assests/img/imgHeader2.jpg" alt="Фото" class="header__photo-two">
+                        <img src="assests/img/imgHeader3.jpg" alt="Фото" class="header__photo-three">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="newCollection" id="newCollection" name="newCollection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="newCollection__title">
+                        Новая коллекция
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="newCollection-wrapper">
+                        <a href="../Диплом/one-item.html" class="newCollection__product">
+                            <img src="assests/img/T-shirt.jpg" alt="Футболка" class="newCollection__products">
+                            <div class="overlay__newCollection"></div>
+                        </a>
+                        <p class="newCollection__text">
+                            Футболка USA
+                        </p>
+                        <span class="newCollection__price-discount">
+                            $229
+                        </span>
+                        <span class="newCollection__price">
+                            $129
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="newCollection-wrapper">
+                        <a href="../Диплом/one-item.html" class="newCollection__product">
+                            <img src="assests/img/swimsuit.jpg" alt="Купальник" class="newCollection__products">
+                            <div class="overlay__newCollection"></div>
+                        </a>
+                        <p class="newCollection__text">
+                            Купальник Glow
+                        </p>
+                        <span class="newCollection__price">
+                            $129
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="newCollection-wrapper">
+                        <a href="../Диплом/one-item.html" class="newCollection__product">
+                            <img src="assests/img/sweetShot.jpg" alt="Свитшот" class="newCollection__products">
+                            <div class="overlay__newCollection"></div>
+                        </a>
+                        <p class="newCollection__text">
+                            Свитшот Sweet Shot
+                        </p>
+                        <span class="newCollection__price">
+                            $129
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="newCollection__btn-wrapper ">
+                        <a href="../Диплом/shop.html" class="newCollection__btn">Открыть магазин</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="important" id="important">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="important__title">
+                        Что для нас важно
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="important-wrap">
+                        <div class="important__icon-watch"></div>
+                    </div>
+                    <div class="important-wrap__content">
+                        <h3 class="content__title">
+                            Качество
+                        </h3>
+                        <p class="content__intro">
+                            Наши профессионалы работают на лучшем оборудовании для пошива одежды беспрецедентного качества
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-md-6 col-lg-4">
+                    <div class="important-wrap">
+                        <div class="important__icon-bolt"></div>
+                    </div>
+                    <div class="important-wrap__content">
+                        <h3 class="content__title">
+                            Скорость
+                        </h3>
+                        <p class="content__intro">
+                            Благодаря отлаженной системе в Womazing мы можем отшивать до 20-ти единиц продукции в наших собственных цехах
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-lg-4">
+                    <div class="important-wrap">
+                        <div class="important__icon-arm"></div>
+                    </div>
+                    <div class="important-wrap__content">
+                        <h3 class="content__title">
+                            Ответственность
+                        </h3>
+                        <p class="content__intro">
+                            Мы заботимся о людях и планете. Безотходное производство и комфортные условия труда - все это Womazing
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dreamTeam" id="dreamTeam">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="dreamTeam__title">
+                        Команда мечты Womazing
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 col-sm-12 d-flex flex-column justify-content-center">
+                    <div class="flex-wrapper dreamTeam__swiper-wrapper">
+                        <div class="slider-wrapper dreamTeam__wrapper">
+                            <div class="dreamTeam__slider slide">
+                                <img src="assests/img/omarLeft.jpg
+                                " alt="#" class="slider-womazing-img">
+                            </div>
+                            <div class="dreamTeam__slider slide active">
+                                <img src="assests/img/adamCenter.jpg" alt="#" class="slider-womazing-img">
+                            </div>
+                            <div class="dreamTeam__slider slide">
+                                <img src="assests/img/simonRight.jpg" alt="#" class="slider-womazing-img">
+                            </div>
+                            <button type="button" id="btn-prev"></button>
+                            <button type="button" id="btn-next"></button>
+                        </div>
+                    </div>
+                    <div class="dots-wrapper">
+                        <span class="dot"></span>
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 d-flex justify-content-center">
+                    <div class="speaker__wrap">
+                        <h3 class="speaker__title">
+                            Для каждой
+                        </h3>
+                        <div class="intro__wrapper">
+                            <p class="speaker__intro">
+                                Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.
+                            </p>
+                            <p class="speaker__intro">
+                                Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.
+                            </p>
+                        </div>
+                        <a href="../Диплом/about.html" class="speaker__brand">Подробнее о бренде</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 align-items-center d-flex flex-column col-sm-6 col-md-4 col-lg-3">
+                    <div class="offer-wrap">
+                        <img src="assests/img/logoFooter.svg" alt="#" class="logo-footer">
+                        <ul class="link-law__list">
+                            <li class="link-law__item">© Все права защищены</li>
+                            <li class="link-law__item">
+                                <a href="#" class="link-law__intro">
+                                    Политика конфиденциальности
+                                </a>
+                            </li>
+                            <li class="link-law__item">
+                                <a href="#" class="link-law__intro">
+                                    Публичная оферта
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-column align-items-center col-sm-1 col-md-8 col-lg-6">
+                    <nav class="header-menu footer-menu">
+                        <ul class="header-menu__list">
+                            <li class="header-menu__item">
+                                <a href="../Диплом/index.html" class="header-menu__item_text">Главная</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="../Диплом/shop.html" class="header-menu__item_text">Магазин</a>
+                                <ul class="subsection">
+                                    <li class="subsection__item"> <a href="#" class="subsection__item-link">Пальто</a> </li>
+                                    <li class="subsection__item"> <a href="#" class="subsection__item-link">Свитшоты</a></li>
+                                    <li class="subsection__item"> <a href="#" class="subsection__item-link">Кардиганы</a></li>
+                                    <li class="subsection__item"> <a href="#" class="subsection__item-link">Толстовки</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="../Диплом/about.html" class="header-menu__item_text">О бренде</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="../Диплом/contacts.html" class="header-menu__item_text">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-12 col-sm-5 col-md-12 col-lg-3">
+                    <div class="massenges-link__wrap">
+                        <a href="tel:+74958235412" class="footer-tel">+7 (495) 823-54-12</a>
+                        <a href="mailto:hello@womazing.com" class="footer-email">hello@womazing.com</a>
+                       <div class="icon__massanges">
+                           <a href="https://www.instagram.com/" class="footer__massange-btn" rel="nofollow noopener noreferrer" target="_blank">
+                               <div class="icon__massange-inst"></div>
+                           </a>
+                           <a href="https://www.facebook.com" class="footer__massange-btn" rel="nofollow noopener noreferrer" target="_blank">
+                               <div class="icon__massange-fsb"></div>
+                           </a>
+                           <a href="https://twitter.com" class="footer__massange-btn" rel="nofollow noopener noreferrer" target="_blank">
+                               <div class="icon__massange-tw"></div>
+                           </a>
+                       </div>
+                       <img src="assests/img/visa-mastercard 1.jpg" alt="#" class="icon-visa">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../Диплом/assests/js/jquery-3.6.0.min.js"></script>
+    <script src="../Диплом/assests/js/jquery.validate.js"></script>
+    <script src="../Диплом/assests/js/main.js"></script>
+
+</body>
+</html>
