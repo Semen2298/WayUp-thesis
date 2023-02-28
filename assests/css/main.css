@@ -107,14 +107,6 @@ a:hover {
     padding-bottom: 130px;
 }
 
-.logo {
-    
-}
-
-.header-menu {
-    
-}
-
 .header-menu__list {
     display: flex;
 }
@@ -336,9 +328,6 @@ a:hover {
     margin: 20px 27px 20px 26px;
 }
 
-.btn-shop {
-}
-
 .scrollbars {
     display: flex;
     justify-content: center;
@@ -374,24 +363,19 @@ a:hover {
 
 
 .header__photo {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header__photo-one {
-    margin-top: 41px;
+    position: relative;
 }
 
 .header__photo-two {
     position: absolute;
-    margin-top: 164px;
-    margin-left: 95px;
+    left: 318px;
+    top: 123px;
 }
 
 .header__photo-three {
     position: absolute;
-    margin-left: -350px;
-    margin-top: 429px;
+    left: -130px;
+    top: 388px;
 }
 
 /* Новая коллекция */
@@ -503,9 +487,6 @@ a:hover {
 .content__title {
     margin-bottom: 24px;
 }
-.content__intro {
-}
-
 /* Команда мечты */
 
 .dreamTeam {
@@ -656,8 +637,6 @@ a:hover {
 .link-law__list {
     font-size: 13px;
 }
-.link-law__text {
-}
 .link-law__intro:hover {
     border-bottom: 1px solid #484848;
 }
@@ -671,10 +650,6 @@ a:hover {
     color: #6E9C9F;
     transition: all 0.5s ease;
     font-weight: 500;
-}
-
-.link-address {
-
 }
 
 .footer-email {
@@ -737,9 +712,6 @@ a:hover {
 .crumbs__link-home {
     font-weight: 500;
 }
-.crumbs-wrap {
-
-}
 
 .crumbs__dash {
     margin: 0 12px;
@@ -794,8 +766,6 @@ a:hover {
     color: #808080;
     margin-bottom: 65px;
 }
-.quantity-product__text {
-}
 
 .shop-btn__wrap {
     display: flex;
@@ -822,9 +792,6 @@ a:hover {
     border: 1px solid #000000;
 }
 
-.shop-btn:hover {
-
-}
 
 .shop-btn__arrow-btn {
     background: none;
@@ -868,8 +835,6 @@ a:hover {
 .card-product__size_title {
     font-size: 20px;
     margin-bottom: 34px;
-}
-.card-product__list {
 }
 .card-product__item {
     margin-right: 14px;
@@ -983,9 +948,6 @@ a:hover {
 
 /* About */
 
-
-.about {
-}
 .about__idea-img {
     width: 442px;
     height: 547px;
@@ -1183,8 +1145,6 @@ a:hover {
 .total:nth-last-child(2n+1) {
     padding-right: 0;
 }
-.issue__link {
-}
 .wrap {
     display: flex;
     align-items: center;
@@ -1199,10 +1159,6 @@ a:hover {
 
 .checkout {
     padding-bottom: 130px;
-}
-.checkout-form {
-}
-.form-modal {
 }
 .checkout-form__title {
     margin-top: 46px;
@@ -1230,8 +1186,6 @@ a:hover {
     height: 134px;
 }
 
-.checkout__table {
-}
 .checkout__order {
     padding-bottom: 30px;
     padding-right: 73px;
@@ -1303,14 +1257,9 @@ a:hover {
 .success__img {
     margin-right: 44px;
 }
-.success__wrap-text {
-}
 .success__title {
     padding-bottom: 17px;
 }
-.success__text {
-}
-
 .massenges-link__wrap {
     display: flex;
     flex-direction: column;
